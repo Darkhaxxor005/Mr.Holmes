@@ -20,7 +20,7 @@ function Packet_Installer {
 	pkg install whois -y &> /dev/null | printf "${WHITE}\n\nINSTALLING WHOIS"
         pkg install tracepath -y &> /dev/null | printf "${WHITE}\n\nINSTALLING TRACEROUTE"
         pkg install php -y &> /dev/null | printf "${WHITE}\n\nINSTALLING PHP"
-	pip3 install -r requirements.txt &> /dev/null | printf "${BLUE}\n\nINSTALLING-PYTHON-REQUIREMENTS..."
+	pip3 install -r ~/Mr.Holmes/requirements.txt &> /dev/null | printf "${BLUE}\n\nINSTALLING-PYTHON-REQUIREMENTS..."
 	printf "${GREEN}\n\n[+]${WHITE}REQUIREMENTS INSTALLED SUCCESFULLY${GREEN}[+]"
 }
 
