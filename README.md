@@ -44,7 +44,7 @@ Install.cmd
 
 # :heavy_check_mark: INSTALLATION TERMUX:
 ```bash
-pkg install proot
+pkg install proot git -y
 git clone https://github.com/Lucksi/Mr.Holmes
 cd Mr.Holmes
 proot -0 chmod +x install_Termux.sh
